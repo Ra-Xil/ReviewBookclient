@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <v-app-bar app dark>
-            <v-toolbar-title></v-toolbar-title>
+            <v-toolbar-title>Review Book</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn text rounded><router-link to="/admin">Admin</router-link></v-btn>
             <v-btn text rounded><router-link to="/add-post">ADD</router-link></v-btn>

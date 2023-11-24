@@ -7,19 +7,8 @@
       <v-btn text rounded><router-link to="/login">Login</router-link></v-btn>
     </v-app-bar>
     <v-main>
-      <router-view></router-view>
+      <router-view>
+      </router-view>
     </v-main>
   </v-app>
 </template>
-
-<!-- <script>
-export default {
-  data: () => ({
-    drawer: null,
-    items: [
-      { text: 'Home', icon: 'mdi-home', link: "/" },
-      { text: 'Đăng nhập', icon: 'mdi-login', link: "/login" },
-    ],
-  }),
-};
-</script> -->
